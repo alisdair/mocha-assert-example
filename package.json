@@ -1,0 +1,20 @@
+{
+  "name": "mocha-assert-example",
+  "private": true,
+  "version": "1.0.0",
+  "description": "How to use mocha and assert to test Node.js modules",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alisdair/mocha-assert-example.git"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha && eslint lib/ test/"
+  },
+  "author": "Alisdair McDiarmid <alisdair@mcdiarmid.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^1.1.0",
+    "mocha": "^2.2.5"
+  }
+}
